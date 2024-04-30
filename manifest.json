@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Search GPT",
+    "version": "1.0",
+    "description": "Search anything on browser with integration of Chat GPT.",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content_script.js"]
+        }
+    ]
+} 
